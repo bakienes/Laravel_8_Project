@@ -1,0 +1,3 @@
+<?php echo $__env->make('backend.kutuphane.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->make('backend.kutuphane.menu', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->yieldContent('content'); ?> <?php /**PATH C:\Users\Bey\Desktop\TestBlog\resources\views/backend/kutuphane/master.blade.php ENDPATH**/ ?>
